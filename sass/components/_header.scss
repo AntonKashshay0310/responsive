@@ -1,21 +1,41 @@
 .header {
     color: $basicColor;
+    width: 177px;
+    height: 173px;
+    margin-top: 19px;
+    margin-bottom: 22px;
 }
-.header__button { 
-text-align: center;
-font-family: "Montserrat", sans-serif;
-font-size: 14px;
-font-weight: 700;
-color: $basicColor;
-background-color: transparent;
 
+.header .container {
+    display: flex;
+    flex-direction: column;
+    gap: 112;
+    align-items: center;
+}
+
+.header__button__list {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.header__button__item {
+
+}
+
+.header__button {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: $basicColor;
+    background-color: transparent;
+    padding: 8px 15px;
 }
 
 .sign-up {
-border: 2px solid $basicColor;
-border-radius: 20px;
-padding: 11px 15px;
+    border: 2px solid $basicColor;
+    border-radius: 20px;
 }
-.header__logo {
-    
-}
+
+.header__logo {}

@@ -1,0 +1,21 @@
+.header {
+    color: $basicColor;
+}
+.header__button { 
+text-align: center;
+font-family: "Montserrat", sans-serif;
+font-size: 14px;
+font-weight: 700;
+color: $basicColor;
+background-color: transparent;
+
+}
+
+.sign-up {
+border: 2px solid $basicColor;
+border-radius: 20px;
+padding: 11px 15px;
+}
+.header__logo {
+    
+}

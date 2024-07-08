@@ -1,9 +1,13 @@
 .header {
     color: $basicColor;
-    width: 177px;
-    height: 173px;
-    margin-top: 19px;
-    margin-bottom: 22px;
+    // width: 177px;
+    // height: 173px;
+    // margin-top: 19px;
+    // margin-bottom: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .header .container {

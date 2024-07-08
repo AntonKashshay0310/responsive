@@ -62,10 +62,10 @@ body {
 }
 .header {
   color: #FFF;
-  width: 177px;
-  height: 173px;
-  margin-top: 19px;
-  margin-bottom: 22px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .header .container {
@@ -94,4 +94,11 @@ body {
 .sign-up {
   border: 2px solid #FFF;
   border-radius: 20px;
+}
+
+.hero {
+  background-image: url(../../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=main.css.map */

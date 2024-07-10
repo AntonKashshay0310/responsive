@@ -66,12 +66,13 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  padding-top: 20px;
 }
 
 .header .container {
   display: flex;
   flex-direction: column;
-  gap: 112;
+  gap: 112px;
   align-items: center;
 }
 
@@ -96,9 +97,53 @@ body {
   border-radius: 20px;
 }
 
+.header__logo {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 .hero {
   background-image: url(../../images/hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 214px;
+  padding-bottom: 136px;
+  color: #FFF;
+  text-align: center;
+}
+
+.hero__title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 306px;
+  margin-bottom: 12px;
+}
+
+.hero__text {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  width: 230px;
+  margin: 0 auto;
+  margin-bottom: 17px;
+}
+
+.hero__button {
+  color: #FFF;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  width: 282px;
+  height: 43px;
+  margin: 0 auto;
+  background-color: #FF4E50;
+  border-radius: 20px;
 }/*# sourceMappingURL=main.css.map */
